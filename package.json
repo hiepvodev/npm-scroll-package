@@ -1,10 +1,11 @@
 {
   "name": "simple-scrollspy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "ScrollSpy effect for website.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress"
   },
   "keywords": [
     "Vo",
@@ -12,5 +13,10 @@
     "Hiep"
   ],
   "author": "vanhiep2102@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }

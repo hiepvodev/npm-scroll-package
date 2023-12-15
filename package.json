@@ -1,0 +1,16 @@
+{
+  "name": "simple-scrollspy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ScrollSpy effect for website.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vo",
+    "Van",
+    "Hiep"
+  ],
+  "author": "vanhiep2102@gmail.com",
+  "license": "ISC"
+}
